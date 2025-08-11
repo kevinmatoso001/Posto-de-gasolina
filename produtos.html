@@ -1,57 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="style.css">
     <title>Produtos - Posto Kaimã</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="caixa">
-            <h1><img class="titulo-principal" src="img/logo.png" alt="Logo do Posto Kaimã"> Posto Kaimã </h1>
+            <h1><img src="img/rodoil.jfif"></h1>
+
             <nav>
-  <ul>
-    <li><a href="index.html" target="_blank">Início</a></li> <!-- Abre em uma nova aba -->
-    <li><a href="#servicos" target="_blank">Serviços</a></li> <!-- Abre em uma nova aba -->
-    <li><a href="produtos.html#precos" target="_blank">Preços</a></li>
-    <li><a href="#contato" target="_blank">Contato</a></li> <!-- Abre em uma nova aba -->
-  </ul>
-</nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-
     <main>
-        <h2 class="titulo-principal">Nossos Produtos</h2>
-
-        <section id="precos">
-    <h2>Preços Atualizados</h2>
-    <div class="tabela-precos">
-        <div class="preco-item">
-            <h3>Gasolina Comum</h3>
-            <p>R$ 6,49</p>
-        </div>
-        <div class="preco-item">
-            <h3>Gasolina Aditivada</h3>
-            <p>R$ 6,69</p>
-        </div>
-        <div class="preco-item">
-            <h3>Etanol</h3>
-            <p>R$ 4,29</p>
-        </div>
-        <div class="preco-item">
-            <h3>Diesel S10</h3>
-            <p>R$ 5,89</p>
-        </div>
-    </div>
-</section>
-
+        <ul class="produtos">
+            <li>
+                <h2>Gasolina Comum/h2>
+                <img src="img/gasosa.jpg">
+                <p class="produto-descricao">É uma mistura de gasolina pura (derivada do petróleo) com 27% de etanol anidro.</p>
+                <p class="produto-preco">R$ 6,19 por litro.</p>
+            </li>
+            <li>
+                <h2>Gasolina aditivada</h2>
+                <img src="img/gasosa.jpg">
+                <p class="produto-descricao">é um tipo de gasolina comum que contém aditivos químicos, como detergentes e dispersantes, que visam melhorar o desempenho do motor e prolongar sua vida útil.</p>
+                <p class="produto-preco">R$ 6,95 por litro.</p>
+            </li>
+            <li>
+                <h2>Gasolina Premium</h2>
+                <img src="img/gasosa.jpg">
+                <p class="produto-descricao">é um tipo de combustível com maior octanagem do que a gasolina comum.</p>
+                <p class="produto-preco">R$7,00 por litro.</p>
+            </li>
+            <li>
+                <h2>Etanol Comum</h2>
+                <img src="img/etanol.jpg">
+                <p class="produto-descricao">é um biocombustível produzido a partir da fermentação de açúcares vegetais, como a cana-de-açúcar.</p>
+                <p class="produto-preco">R$ 4,13 por litro.</p>
+            </li>
+            <h2>Etanol Aditivado</h2>
+                <img src="img/etanol.jpg">
+                <p class="produto-descricao">é um tipo de combustível que, além do etanol comum, contém aditivos especiais em sua composição.</p>
+                <p class="produto-preco">R$ 4,62 por litro</p>
+            </li>
+            <li>
+                <h2>Diesel</h2>
+                <img src="img/diesel.jfif">
+                <p class="produto-descricao">é um tipo de óleo diesel com teor máximo de enxofre de 500 ppm (partes por milhão).</p>
+                <p class="produto-preco">R$ 6,03 por litro.</p>
+            </li>
+            <li>
+                <h2>Diesel S-10</h2>
+                <img src="img/diesel.jfif">
+                <p class="produto-descricao">é um tipo de óleo diesel com teor máximo de enxofre de 10 partes por milhão (ppm)</p>
+                <p class="produto-preco">R$ 6,07 por litro.</p>
+            </li>
+            li>
+                <h2>GNV (Gás Natural Veicular)</h2>
+                <img src="img/GNV-1920.jpg">
+                <p class="produto-descricao">é um tipo de óleo diesel com teor máximo de enxofre de 10 partes por milhão (ppm)</p>
+                <p class="produto-preco">R$ 6,07 por litro.</p>
+            </li>
+        </ul>
     </main>
-
     <footer>
-        <img src="img/logo-branco.png" alt="Logo do Posto Kaimã">
+        <img src="img/rodoil.jfif">
         <p class="copyright">&copy; Copyright Posto Kaimã - 2025</p>
     </footer>
 </body>
