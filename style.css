@@ -249,3 +249,11 @@ th {
     border-radius: 8px; /* opcional, arredondar cantos */
     display: block;    /* remove espaço extra embaixo da imagem */
 }
+
+.produtos li img {
+    width: 100%;        /* imagem ocupa toda a largura do li */
+    height: 200px;      /* altura fixa pra manter padrão */
+    object-fit: cover;  /* cobre a caixa sem distorcer, cortando o que ultrapassa */
+    border-radius: 8px; /* arredonda levemente as bordas da imagem */
+    display: block;     /* remove espaçamento extra embaixo da imagem */
+}
