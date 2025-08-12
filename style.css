@@ -262,3 +262,9 @@ th {
   border-radius: 8px;
   display: block;
 }
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Isso ajuda a evitar distorções */
+}
