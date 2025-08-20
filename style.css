@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: #ffffff;
+    background: #303030;
     padding: 20px 0;
 }
 
@@ -20,7 +20,7 @@ header {
 
 .principal {
     padding: 3em 0;
-    background: #FEFEFE;
+    background: #5e5e5e;
     width: 940px;
     margin: 0 auto;
 }
@@ -66,14 +66,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #a0a0a0;
     text-decoration: underline;
 }
 
@@ -91,17 +91,17 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #f3f3f3;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .produtos li:hover {
-    border-color: #C78C19;
+    border-color: #303030;
 }
 
 .produtos li:active {
-    border-color: #088C19;
+    border-color: #666666;
 }
 
 .produtos h2 {
@@ -127,7 +127,7 @@ main {}
 
 .beneficios {
     padding: 3em 0;
-    background: #888888;
+    background: #918d8d;
 }
 
 .conteudo-beneficios {
@@ -201,7 +201,7 @@ footer {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: #888888;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -212,7 +212,7 @@ footer {
 }
 
 .enviar:hover {
-    background: darkorange;
+    background: #8e8e8e;
     transform: scale(1.2);
 }
 
